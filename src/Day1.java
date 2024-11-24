@@ -26,7 +26,7 @@ public class Day1 {
             }
         }
     }
-
+    
     private static void partTwo(ArrayList<Integer> expenses) {
         for(int i = 0; i < expenses.size() - 3; i++) {
             for(int j = i + 1; j < expenses.size() - 2; j++) {
